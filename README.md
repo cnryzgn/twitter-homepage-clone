@@ -22,11 +22,14 @@ $ git clone https://github.com/cnryzgn/twitter-homepage-clone.git
 # open the project folder
 $ cd twitter-homepage-clone
 
-# install & run json-server
+# install project
+$ yarn install
+
+# run json-server
 $ yarn run json-server
 
 # open new terminal, go project folder again and then follow the code
-# install & run project
-$ yarn install && yarn start
+# run project
+$ yarn start
 
 ```
