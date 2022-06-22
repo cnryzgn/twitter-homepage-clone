@@ -22,7 +22,7 @@ interface Tweet {
 
 export default function App() {
     const [tweetData, setTweetData] = useState() // All tweets data 
-    const [tweetInput, setTweetInput] = useState<string>('') // Input from tweet from
+    const [tweetInput, setTweetInput] = useState<string>('') // Input from tweet form
 
     // Tweet Object
     const tweet: Tweet = {
@@ -76,17 +76,3 @@ export default function App() {
         </MainContext.Provider>
     )
 }
-
-   /**
-     *  ICONS
-     * <i class="fa-brands fa-twitter"></i> == Twitter icon
-     * <i class="fa-solid fa-house"></i> == Home
-     * <i class="fa-solid fa-circle-question"></i> == Question
-     * <i class="fa-solid fa-magnifying-glass"></i> == Search 
-     * <i class="fa-solid fa-bars"></i> == bar for side of Home title
-     * <i class="fa-solid fa-comment"></i> == comment
-     * <i class="fa-solid fa-retweet"></i> == retweet
-     * <i class="fa-solid fa-heart"></i> == like
-     * <i class="fa-solid fa-trash"></i> == delete for tweet
-     * <i class="fa-solid fa-angle-down"></i> == Down angle
-     */
