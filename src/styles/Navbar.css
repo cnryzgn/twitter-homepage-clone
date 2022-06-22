@@ -1,0 +1,154 @@
+:root {
+    --twitter-blue: #1DA1F2;
+    --twitter-blue-hover: #237db4;
+}
+
+nav {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-right: 1px solid #ddd;
+}
+
+nav .logo {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+nav .logo > i {
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--twitter-blue);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.logo > i:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    transition: .3s;
+    outline: none;
+}
+
+.nav-list a > i {
+    width: 40px;
+    font-size: 1.3rem;
+    margin-left: 6px; 
+}
+
+
+.nav-list a:focus,
+.nav-list a:hover,
+.nav-list a:active {
+    color: var(--twitter-blue);
+}
+
+.nav-list a > p {
+    text-align: center;
+    display: inline-block;
+}
+
+nav button {
+    width: 90%;
+    max-width: 230px;
+    height: 45px;
+    padding: 6px 12px;
+    margin-left: 22px;
+    font-size: .970rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: var(--twitter-blue);
+    border: 1px solid transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+nav button > i {
+    display: none !important;
+}
+
+nav button:hover {
+    background-color: var(--twitter-blue-hover);
+}
+
+
+@media (max-width: 1080px) {
+    nav {
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .logo {
+        margin-left: 0px;
+
+    }
+ 
+    .logo > i{
+        font-size: 1.6rem;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        margin-inline: 0;
+
+    }
+
+    nav a {
+        text-align: center;
+
+    }
+
+    nav a > span {
+        display: none;
+    }
+
+    nav a > i {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 10px;
+        transition: .5s;
+    }
+    
+    nav a > i:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    nav button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 0px;
+    }
+
+    nav button > i {
+        display: block !important;
+    }
+
+    nav button > span {
+        display: none;
+    }
+}

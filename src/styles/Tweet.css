@@ -1,0 +1,113 @@
+.tweet-container {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial;
+    padding: 12px;
+    display: flex;
+}
+
+.tweet-container > .img-container {
+    width: 11%;
+}
+
+.img-container > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+.tweet-content {
+    width: 90%;
+}
+
+/* --------------------- */
+
+.tweet-content > .userdata {
+    display: flex;
+}
+
+.userdata > h3,
+.userdata > p { margin-right: 13px; }
+
+.userdata span { color: #777; font-weight: bold; }
+
+.tweet {    
+    padding: 7px;
+    margin-bottom: 25px;
+    line-height: 22px;
+}
+
+.tweet-container .icons {
+    width: 60%;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tweet-content p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+/** ICONS **/
+
+.tweet-container i {
+    margin-right: 7px;
+}
+
+.material-symbols-outlined, #unliked {
+    font-size: 1.3em;
+    margin-right: 7px;
+    transition: .115s;
+    color: #000;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.material-symbols-outlined, #liked  {
+    color: red;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.icons p > i,
+.icons p > span {
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .350s;
+}
+
+.icons p > i:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icons p > span:hover {
+    background-color: rgba(255, 120, 120, 0.150);
+}
+
+@media (max-width: 1080px) {
+    .tweet-content { 
+        width: 75%;
+        margin-left: 45px;
+    }
+
+    .userdata > h3,
+    .userdata > p {
+        margin-right: 1px;
+    }
+}

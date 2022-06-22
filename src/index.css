@@ -1,0 +1,7 @@
+@import url('./styles/Navbar.css');
+@import url('./styles/Aside.css');
+@import url('./styles/Main.css');
+
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+
+body { overflow-x: hidden; }

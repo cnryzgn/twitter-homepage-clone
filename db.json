@@ -1,0 +1,34 @@
+{
+  "tweets": [
+    {
+      "name": "Jane Smith",
+      "username": "smith_jane123",
+      "tweetVal": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum aspernatur. Odio illo dolorum voluptate eos sunt esse perferendis itaque ad, atque quisquam, laudantium aspernatur consequatur est nisi. Dolores, sequi.",
+      "profileImg": "person3.jpg",
+      "comment": 2,
+      "retweet": 9,
+      "date": "2022-06-21T21:08:05.244Z",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "username": "john_doe123",
+      "tweetVal": "Hello, World!",
+      "profileImg": "person2.jpg",
+      "comment": 4,
+      "retweet": 4,
+      "date": "2022-06-21T22:38:10.164Z",
+      "id": 2
+    },
+    {
+      "name": "John Doe",
+      "username": "john_doe123",
+      "tweetVal": "Nulla convallis fermentum consequat. Sed nec tellus vel augue bibendum consectetur. Sed eget mauris ac libero sodales sagittis vel non ipsum. Etiam quis vehicula turpis, malesuada congue nisi. Cras facilisis pharetra neque. In a sem tempus, aliquam dui eget, ornare risus. Mauris ultricies molestie auctor. Suspendisse faucibus consectetur viverra.",
+      "profileImg": "person2.jpg",
+      "comment": 2,
+      "retweet": 6,
+      "date": "2022-06-22T13:08:17.853Z",
+      "id": 3
+    }
+  ]
+}
